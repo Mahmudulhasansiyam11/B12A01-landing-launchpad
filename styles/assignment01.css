@@ -85,6 +85,7 @@
 main {
   max-width: 1140px;
   margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.845);
 }
 
 /* Action Content */
@@ -232,4 +233,45 @@ main {
     margin-bottom: 71px;
 }
 
+/* touch content */
+.touch-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    margin-top: 90px;
+}
+
+.touch-content1{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="button"], textarea{
+  width: 500px;
+  height: 70px;
+}
+
+input[placeholder]{
+    font-size: 20px;
+}
+
+textarea{
+    font-size: 20px;
+}
+
+.touch-content2-content-email{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.touch-content2-content-name{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.touch-content2-content-message{
+    font-size: 18px;
+    font-weight: 500;
+}
 
