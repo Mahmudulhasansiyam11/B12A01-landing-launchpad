@@ -26,7 +26,7 @@
 /* Header Section */
 .header-container{
     background-image: url('../Assets/Hero-bg.png');
-    border: 2px solid tomato;
+    height: 698px;
 }
 
 /* Header Navbar section */
@@ -48,6 +48,21 @@
     height: 51px;
 }
 
-.navbar-content-button{
-
+/* Header Banner Section */
+.banner-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    width: 905px;
+    height: 237px;
+    margin-top: 158px;
 }
+
+.banner-content{
+    text-align: center;
+}
+
+.banner-content-paragraph{
+    font-size: 65px;
+    font-weight: bold;
+}
+
