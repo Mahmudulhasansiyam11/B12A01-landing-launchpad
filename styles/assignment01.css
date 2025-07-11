@@ -239,7 +239,7 @@ main {
     justify-content: space-between;
     align-items: center;
     gap: 100px;
-    margin-top: 90px;
+    margin-top: 45px;
 }
 
 .touch-content1{
@@ -274,4 +274,56 @@ textarea{
     font-size: 18px;
     font-weight: 500;
 }
+
+/* footer section */
+footer{
+    max-width: 1170px; 
+    margin: 0 auto; 
+    margin-top: 14px;
+}
+
+.footer-container{
+    border:2px solid none;
+}
+
+.footer-container-content-heading{
+    font-size: 100px;
+    height: 14px;
+}
+
+.footer-container-content-paragraph{
+    font-size: 16px;
+    text-align: center;
+    width: 530px;
+    height: 48px;
+    margin-left: 300px;
+    margin-top: 130px;
+    
+}
+
+
+
+.footer-container-list li{
+    list-style: none;
+}
+
+.footer-container-list a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+
+.footer-container-list{
+    display: flex;
+    gap: 24px;
+    height: 20px;
+    align-items: center;
+    justify-content: space-around;
+    width: 420px;
+    height: 24px;
+    margin-left: 310px;
+    margin-bottom: 60px;
+    
+}
+
 
