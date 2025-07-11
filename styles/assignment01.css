@@ -8,6 +8,16 @@
   font-style: normal;
 }
 
+/* Inter Font */
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: 600px; */
+  font-style: normal;
+}
+
 /* Primary Section */
 .bg-primary{
     color: #4E47FF;
@@ -83,9 +93,10 @@ main{
 
 .action-container{
     display: flex;
-    margin-top: 126px;
     justify-content: space-between;
     align-items: center;
+    margin-top: 126px;
+    height: 328px;
 }
 
 .action-content1{
@@ -101,3 +112,47 @@ main{
     border-radius: 10%;
 }
 
+/* Productive User Content */
+
+.productive-user-container{
+    background-color: rgba(78, 71, 255, 0.1);
+    margin-top: 130px;
+    border-radius: 20px;
+}
+
+.productive-user-content{
+    margin-top: 50px;
+    margin-left: 142px;
+    margin-right: 142px;
+    padding-top: 10px;
+}
+
+.productive-user-content1{
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.productive-user-content2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+}
+
+.productive-user-content2-content{
+    text-align: center;
+}
+
+.productive-user-content2-content-paragraph1{
+    font-size: 100px;
+    font-weight: bold;
+    width: 99px;
+    height: 51px;
+    margin-top: 5px;
+
+}
+
+.productive-user-content2-content-paragraph2{
+    font-size: 20px;
+}
