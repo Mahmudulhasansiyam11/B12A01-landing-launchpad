@@ -37,6 +37,7 @@
   color: #252432;
 }
 
+
 /* Header Section */
 .header-container {
   background-image: url("../Assets/Hero-bg.png");
@@ -326,4 +327,29 @@ footer{
     
 }
 
+/* Add Hover Animation */
 
+/* Hover add Navbar button */
+.navbar-content-button:hover{
+    background-color: orange;
+}
+
+/* Hover add Banner Button */
+.banner-content-button button:hover{
+    background-color: orange;
+}
+
+/* Hover add Action Container Button */
+.action-content1-button button:hover{
+    background-color: orange;
+}
+
+/* Hover add Extra Content Button */
+.extra-container-content1-button:hover{
+    background-color:  orange;
+}
+
+/* Hover add Touch Button */
+input[type="button"]:hover{
+    background-color: orange;
+}
