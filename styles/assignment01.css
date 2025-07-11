@@ -156,3 +156,55 @@ main{
 .productive-user-content2-content-paragraph2{
     font-size: 20px;
 }
+
+/* User Feedback Content */
+
+.user-feedback-container{
+    margin-top: 130px;
+}
+
+.user-feedback-content1{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.user-feedback-content2{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+
+.user-feedback-content2-content-star{
+    display: flex;
+}
+
+.user-feedback-content2-content{
+    border-radius: 14px;
+    background-color: #f5f4f4;
+    padding: 24px 24px 24px 14px;
+}
+
+.user-feedback-content2-content-star1{
+    margin-left: 4px;
+}
+
+.user-feedback-content2-content-title2{
+    font-size: 16px;
+    font-weight: 140px;
+}
+
+.user-feedback-content2-content-image-content{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+}
+.user-feedback-content2-content-image-content1{
+    width: 40px;
+    height: 40px;
+}
+
+.user-feedback-content2-content-image-content2{
+    margin-left: 12px;
+}
